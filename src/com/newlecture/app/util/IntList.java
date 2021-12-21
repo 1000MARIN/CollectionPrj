@@ -8,7 +8,6 @@ public class IntList {
 	public IntList() {
 		nums = new int[3];
 		current = 0;
-		
 	}
 	
 	public void add(int num) {
@@ -22,20 +21,17 @@ public class IntList {
 		
 		//nums = new int[3];
 		current = 0;	
-		
 	}
 
 	public int size() {
-		// TODO Auto-generated method stub
 		return current;
 	}
 
 	public int get(int index) {
-		// TODO Auto-generated method stub
 		if(current <= index)
 			throw new IndexOutOfBoundsException();
 		
 		return nums[index];
 	}
 
-}
+} // end of IntList
