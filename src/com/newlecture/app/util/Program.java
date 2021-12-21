@@ -17,7 +17,6 @@ public class Program {
 		 int num = list.get(0);
 		 System.out.printf("num : %d\n", num);	// 0번째 num값 출력
 		 num = list.get(1);						// 1번째 값 읽기 -> 1번째 값 없음  -> IndexOutOfBoundsException 오류 발생
-	}
-
-}
+	} // end of main
+} // end of Program
 
